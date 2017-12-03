@@ -1,1 +1,1 @@
-web: python moscow-carters-bot.py runserver 0.0.0.0:5000
+web: python strogino77bot.py runserver 0.0.0.0:5000
