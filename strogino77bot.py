@@ -153,7 +153,6 @@ def default_test(message):
 #стоматология в строгино
 @bot.message_handler(commands=['dent'])
 def default_test(message):
-####
     bot.send_message(message.chat.id, '💰Стоматология "Санация" \n💎ул. Кулакова, 20, 1 этаж \n☎+7 (495) 488-25-70\n🔗http://sanacia.ru \n🕓Время работы:\nпн-сб: 10:00—20:00 \nвс: 10:00—18:00')
     bot.send_message(message.chat.id, '\n⚕️Узнать прейскурант\n http://sanacia.ru/ceny-na-uslugi/')
     bot.send_message(message.chat.id, '📍Вы можете проложить маршрут до учреждения, нажав на карту')
@@ -169,19 +168,10 @@ def default_test(message):
     bot.send_message(message.chat.id, '📍Вы можете проложить маршрут до учреждения, нажав на карту')
     bot.send_location(message.chat.id, latitude=55.794073, longitude=37.3953223)
 #####
-    bot.send_message(message.chat.id, '💰"" \n💎ул. \n☎\n🔗 \n🕓Время работы:\n \nвс:  \n⛔стоматология \n⛔педиатрия \n✅женская консультация')
-    bot.send_message(message.chat.id, '\n⚕️Узнать прейскурант\n ')
-    bot.send_message(message.chat.id, '📍Вы можете проложить маршрут до учреждения, нажав на карту')
-    bot.send_location(message.chat.id, latitude=, longitude=)
-#####
-    bot.send_message(message.chat.id, '💰"" \n💎ул. \n☎\n🔗 \n🕓Время работы:\n \nвс:  \n⛔стоматология \n⛔педиатрия \n✅женская консультация')
-    bot.send_message(message.chat.id, '\n⚕️Узнать прейскурант\n ')
-    bot.send_message(message.chat.id, '📍Вы можете проложить маршрут до учреждения, нажав на карту')
-    bot.send_location(message.chat.id, latitude=, longitude=)
-#####
-
 
 #детские
+@bot.message_handler(commands=['det_money'])
+def default_test(message):
     bot.send_message(message.chat.id, '💰Театр песни "Фантазия" \nподразделение Центра практической психологии "Эквалайс" \n💎ул. Твардовского, д.4, к.2 \n☎+7 (495) 757 44 43 \n☎+7 (985) 760 59 29\n🔗https://www.psyequal.ru ')
     bot.send_message(message.chat.id, '📍Вы можете проложить маршрут до учреждения, нажав на карту')
     bot.send_location(message.chat.id, latitude=55.79711, longitude=37.3889523)
@@ -201,14 +191,6 @@ def default_test(message):
     bot.send_location(message.chat.id, latitude=, longitude=)
 #####
 
-
-
-
-
-
-@bot.message_handler(commands=['price_imma'])
-def default_test(message):
-    bot.send_message(message.chat.id, '\n http://miss-ekler.ru/wp-content/uploads/2017/11/Price_IMMA.pdf')
 ############################################
 
 @bot.message_handler(commands=['price_natali'])
@@ -226,11 +208,6 @@ def default_test(message):
     bot.send_message(message.chat.id, 'Рентгенология \n http://www.natalimed.ru/ftpgetfile.php?id=68')
     bot.send_message(message.chat.id, 'Программы обследования \n http://www.natalimed.ru/programmy-obsledovanija')
 
-@bot.message_handler(commands=[''])
-def default_test(message):
-
-
-
 @bot.message_handler(commands=['det_free_med'])
 def default_test(message):
     bot.send_message(message.chat.id, '🔷 🔷 🔷Перед тобой список бесплатных детских поликлиник в Строгино')
@@ -238,23 +215,6 @@ def default_test(message):
     bot.send_message(message.chat.id, 'ул. Твардовского, д. 5, корп. 4\n💎  \nДежурный администратор: \n☎8 (965) 207-47-18 \nСправочная: \n☎8 (495) 756-22-39\nЗапись к специалистам: \n☎8 (495) 539-30-00 \nВызов врача на дом:\n☎8 (495) 758-33-25 \n🔗http://dgp58dzm.ru/')
     bot.send_message(message.chat.id, '📍Вы можете проложить маршрут до учреждения, нажав на карту')
     bot.send_location(message.chat.id, latitude=55.797342, longitude=37.3928013)
-
-    bot.send_message(message.chat.id, '🔷 🔷 🔷Перед тобой список бесплатных детских поликлиник в Строгино')
-    bot.send_message(message.chat.id, '💰\n💎  \n☎ \n☎ \n☎ \n🔗 \n🕓Время работы:\n \n✅ \n✅\n✅')
-    bot.send_message(message.chat.id, '📍Вы можете проложить маршрут до учреждения, нажав на карту')
-    bot.send_location(message.chat.id, latitude=, longitude=)
-    bot.send_message(message.chat.id, '🔷 🔷 🔷Перед тобой список бесплатных детских поликлиник в Строгино')
-    bot.send_message(message.chat.id, '💰\n💎  \n☎ \n☎ \n☎ \n🔗 \n🕓Время работы:\n \n✅ \n✅\n✅')
-    bot.send_message(message.chat.id, '📍Вы можете проложить маршрут до учреждения, нажав на карту')
-    bot.send_location(message.chat.id, latitude=, longitude=)
-    bot.send_message(message.chat.id, '🔷 🔷 🔷Перед тобой список бесплатных детских поликлиник в Строгино')
-    bot.send_message(message.chat.id, '💰\n💎  \n☎ \n☎ \n☎ \n🔗 \n🕓Время работы:\n \n✅ \n✅\n✅')
-    bot.send_message(message.chat.id, '📍Вы можете проложить маршрут до учреждения, нажав на карту')
-    bot.send_location(message.chat.id, latitude=, longitude=)
-    bot.send_message(message.chat.id, '🔷 🔷 🔷Перед тобой список бесплатных детских поликлиник в Строгино')
-    bot.send_message(message.chat.id, '💰\n💎  \n☎ \n☎ \n☎ \n🔗 \n🕓Время работы:\n \n✅ \n✅\n✅')
-    bot.send_message(message.chat.id, '📍Вы можете проложить маршрут до учреждения, нажав на карту')
-    bot.send_location(message.chat.id, latitude=, longitude=)
 
 @bot.message_handler(content_types=["бесплатно", "бюджетно"])
 def default_test(message):
@@ -289,36 +249,9 @@ def default_test(message):
     bot.send_message(message.chat.id, 'Вы можете проложить маршрут до поликлинки, нажав на карту')
     bot.send_location(message.chat.id, latitude=55.797848, longitude=37.4044913)
 
-
-
-@bot.message_handler(content_types=["сайт"])
-def default_test(message):
-    keyboard = types.InlineKeyboardMarkup()
-    url_button = types.InlineKeyboardButton(text="Перейти на официальный сайт Carters", url="https:carters.com")
-    keyboard.add(url_button)
-    bot.send_message(message.chat.id, "Нажми на кнопку и перейди на официальный сайт Картерс", reply_markup=keyboard)
-
-
-@bot.message_handler(content_types=[""])
-def default_test(message):
-    keyboard = types.InlineKeyboardMarkup()
-    url_button = types.InlineKeyboardButton(text="Перейти на официальный сайт Carters", url="https:carters.com")
-    keyboard.add(url_button)
-    bot.send_message(message.chat.id, "Нажми на кнопку и перейди на официальный сайт Картерс", reply_markup=keyboard)
-
-
 @bot.message_handler(content_types=["дура", "сука", "блядь", "хуй"])
 def default_test(message):
     bot.send_message(message.chat.id, "Не надо материться!")
-
-@bot.message_handler(content_types=["дура", "сука", "блядь", "хуй"])
-def default_test(message):
-    bot.send_message(message.chat.id, "Не надо материться!")
-
-@bot.message_handler(content_types=["размер"])
-def default_test(message):
-    bot.send_message(message.chat.id, "Если не можешь определиться с размером Картерс, жми /size_chart")
-
 
 
 if __name__ == '__main__':
